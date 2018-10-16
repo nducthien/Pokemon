@@ -14,3 +14,10 @@
 2) Using http://json2csharp.com/ covert to json
     - Learn more Edit --) find replace very interesting
 3) Create Retrofit client
+4) Create new Blank Fragment to display List of Pokemon
+    - Add toolbar and Fragment to activity_main
+    - Create list_item_pokemon
+        - android:scaleType="fitXY"
+    - Add RecyclerView
+5) Custom Adapter for this RecyclerView
+
