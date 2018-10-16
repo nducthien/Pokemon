@@ -1,5 +1,5 @@
 # Pokemon
-# add library
++) Add library
     // Rx java
     implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
@@ -11,6 +11,6 @@
     // Glide
     annotationProcessor 'com.github.bumptech.glide:compier:4.8.0'
     implementation 'com.github.bumptech.glide:glide:4.8.0'
-# using http://json2csharp.com/ covert to json
-# Learn more Edit --) find replace very interesting
-# Create Retrofit client
++) using http://json2csharp.com/ covert to json
++) Learn more Edit --) find replace very interesting
++) Create Retrofit client
