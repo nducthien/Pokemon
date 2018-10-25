@@ -21,3 +21,6 @@
     - Add RecyclerView
 5) Custom Adapter for this RecyclerView
 
+-------------------------------------------
+6) Create Interface IItemclickListener
+    - In PokemonListAdapter we using it
