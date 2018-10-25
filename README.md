@@ -24,3 +24,8 @@
 -------------------------------------------
 6) Create Interface IItemclickListener
     - In PokemonListAdapter we using it
+    - In onBindViewHolder using holder.setItemClickListener for event clicked
+    - Create new Fragment Pokemon Detail
+    - Create LocalBroadcast to request MainActivity replace Fragment when we click on Pokemon
+    LocalBroadcastManager.getInstance(context)
+                        .sendBroadcast(new Intent(Common.KEY_ENABLE_HOME).putExtra("position", position));
