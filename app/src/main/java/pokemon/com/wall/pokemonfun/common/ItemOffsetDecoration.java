@@ -7,6 +7,9 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+/**
+ * sử dụng để trang trí các item của recycler view
+ */
 
 public class ItemOffsetDecoration extends RecyclerView.ItemDecoration {
     private int itemoffset;
