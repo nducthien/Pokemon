@@ -3,23 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/splash"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
 
-   <android.support.v7.widget.Toolbar
-       android:id="@+id/toolbar"
-       android:minHeight="?attr/actionBarSize"
-       app:titleTextColor="@android:color/white"
-       android:background="@color/colorPrimary"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white">
 
-   </android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.Toolbar>
 
     <fragment
         android:id="@+id/list_pokemon"
-        android:name="pokemon.com.wall.pokemonfun.PokemonList"
+        android:name="pokemon.com.wall.pokemonfun.fragment.PokemonList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 </LinearLayout>

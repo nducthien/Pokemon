@@ -1,4 +1,4 @@
-package pokemon.com.wall.pokemonfun.Adapter;
+package pokemon.com.wall.pokemonfun.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-import pokemon.com.wall.pokemonfun.Model.Pokemon;
+import pokemon.com.wall.pokemonfun.model.Pokemon;
 import pokemon.com.wall.pokemonfun.R;
 
 public class PokemonListAdapter extends RecyclerView.Adapter<PokemonListAdapter.MyViewHolder> {

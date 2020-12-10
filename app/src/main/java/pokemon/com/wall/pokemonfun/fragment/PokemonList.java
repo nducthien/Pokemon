@@ -1,4 +1,4 @@
-package pokemon.com.wall.pokemonfun;
+package pokemon.com.wall.pokemonfun.fragment;
 
 
 import android.os.Bundle;
@@ -13,12 +13,13 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
-import pokemon.com.wall.pokemonfun.Adapter.PokemonListAdapter;
-import pokemon.com.wall.pokemonfun.Common.Common;
-import pokemon.com.wall.pokemonfun.Common.ItemOffsetDecoration;
-import pokemon.com.wall.pokemonfun.Model.Pokedex;
-import pokemon.com.wall.pokemonfun.Retrofit.IPokemonDex;
-import pokemon.com.wall.pokemonfun.Retrofit.RetrofitClient;
+import pokemon.com.wall.pokemonfun.R;
+import pokemon.com.wall.pokemonfun.adapter.PokemonListAdapter;
+import pokemon.com.wall.pokemonfun.common.Common;
+import pokemon.com.wall.pokemonfun.common.ItemOffsetDecoration;
+import pokemon.com.wall.pokemonfun.model.Pokedex;
+import pokemon.com.wall.pokemonfun.retrofit.IPokemonDex;
+import pokemon.com.wall.pokemonfun.retrofit.RetrofitClient;
 import retrofit2.Retrofit;
 
 

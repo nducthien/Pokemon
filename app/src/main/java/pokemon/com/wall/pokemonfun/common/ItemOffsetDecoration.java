@@ -1,4 +1,4 @@
-package pokemon.com.wall.pokemonfun.Common;
+package pokemon.com.wall.pokemonfun.common;
 
 import android.content.Context;
 import android.graphics.Rect;

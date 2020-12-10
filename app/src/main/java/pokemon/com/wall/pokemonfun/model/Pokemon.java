@@ -1,4 +1,4 @@
-package pokemon.com.wall.pokemonfun.Model;
+package pokemon.com.wall.pokemonfun.model;
 
 import java.util.List;
 

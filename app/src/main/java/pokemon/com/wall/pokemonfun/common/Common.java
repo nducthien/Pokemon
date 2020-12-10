@@ -1,9 +1,9 @@
-package pokemon.com.wall.pokemonfun.Common;
+package pokemon.com.wall.pokemonfun.common;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import pokemon.com.wall.pokemonfun.Model.Pokemon;
+import pokemon.com.wall.pokemonfun.model.Pokemon;
 
 public class Common {
 

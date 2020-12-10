@@ -1,8 +1,10 @@
-package pokemon.com.wall.pokemonfun;
+package pokemon.com.wall.pokemonfun.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+
+import pokemon.com.wall.pokemonfun.R;
 
 
 public class MainActivity extends AppCompatActivity {
