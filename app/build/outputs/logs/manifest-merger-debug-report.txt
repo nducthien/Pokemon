@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.robertlevonyan.view:MaterialChipView:1.2.4] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\19b64597b03c51a6c90cd92d895e3ffd\MaterialChipView-1.2.4\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\fb73cd95735f60ea8817b5519842e60e\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6a878a6a72ba57aba47ad322ec974edf\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\5b7674459d98898815b858ca36d6d379\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\730778db586674a895bff375855045ee\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\312f83425808e5212ec527eb40bbd563\rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8730c22f39a43c1e9ca9ca440b3f2bf5\glide-4.8.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f8403b8a6a0886985494885c15e8aac5\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\bc0754ec59c12e2720bea1fac4ecb132\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6f78845ca1ca3de9d467d4c1bdd74a15\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\896ca3056d389aaca8c7457779a6bac4\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\736555858f56cac7f8303881cf0e3e2c\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\32c85c9e9ec08d56d41417fd81fe6f97\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f4a07ecc459cf61de0df685cb53b6d59\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\4715540b96306b3f1a923bb1dbd5fba2\gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\90fc2c6319561173608a820b963e1421\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\b4cc76471c981cc44ee29bf4109833e6\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a9db6ba4d56d8d15f07eaf77a110ab30\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\45f40d503071a894280280ea2da15b05\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:7:5-22:19
+MERGED from [com.robertlevonyan.view:MaterialChipView:1.2.4] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\19b64597b03c51a6c90cd92d895e3ffd\MaterialChipView-1.2.4\AndroidManifest.xml:12:5-20
+MERGED from [com.robertlevonyan.view:MaterialChipView:1.2.4] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\19b64597b03c51a6c90cd92d895e3ffd\MaterialChipView-1.2.4\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8730c22f39a43c1e9ca9ca440b3f2bf5\glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8730c22f39a43c1e9ca9ca440b3f2bf5\glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\4715540b96306b3f1a923bb1dbd5fba2\gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\4715540b96306b3f1a923bb1dbd5fba2\gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:11:9-49
+	android:icon
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:9:9-44
+	android:allowBackup
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:14:9-44
+activity#pokemon.com.wall.pokemonfun.activity.MainActivity
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:15:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+MERGED from [com.robertlevonyan.view:MaterialChipView:1.2.4] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\19b64597b03c51a6c90cd92d895e3ffd\MaterialChipView-1.2.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.robertlevonyan.view:MaterialChipView:1.2.4] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\19b64597b03c51a6c90cd92d895e3ffd\MaterialChipView-1.2.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\fb73cd95735f60ea8817b5519842e60e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\fb73cd95735f60ea8817b5519842e60e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6a878a6a72ba57aba47ad322ec974edf\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6a878a6a72ba57aba47ad322ec974edf\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\5b7674459d98898815b858ca36d6d379\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\5b7674459d98898815b858ca36d6d379\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e1d89028329a343a255fe4f595387f42\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\730778db586674a895bff375855045ee\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\730778db586674a895bff375855045ee\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\312f83425808e5212ec527eb40bbd563\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\312f83425808e5212ec527eb40bbd563\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8730c22f39a43c1e9ca9ca440b3f2bf5\glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8730c22f39a43c1e9ca9ca440b3f2bf5\glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f8403b8a6a0886985494885c15e8aac5\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f8403b8a6a0886985494885c15e8aac5\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\bc0754ec59c12e2720bea1fac4ecb132\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\bc0754ec59c12e2720bea1fac4ecb132\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6f78845ca1ca3de9d467d4c1bdd74a15\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6f78845ca1ca3de9d467d4c1bdd74a15\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\896ca3056d389aaca8c7457779a6bac4\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\896ca3056d389aaca8c7457779a6bac4\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\736555858f56cac7f8303881cf0e3e2c\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\736555858f56cac7f8303881cf0e3e2c\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\32c85c9e9ec08d56d41417fd81fe6f97\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\32c85c9e9ec08d56d41417fd81fe6f97\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f4a07ecc459cf61de0df685cb53b6d59\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f4a07ecc459cf61de0df685cb53b6d59\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\4715540b96306b3f1a923bb1dbd5fba2\gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\4715540b96306b3f1a923bb1dbd5fba2\gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\90fc2c6319561173608a820b963e1421\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\90fc2c6319561173608a820b963e1421\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\b4cc76471c981cc44ee29bf4109833e6\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\b4cc76471c981cc44ee29bf4109833e6\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a9db6ba4d56d8d15f07eaf77a110ab30\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a9db6ba4d56d8d15f07eaf77a110ab30\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\45f40d503071a894280280ea2da15b05\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\45f40d503071a894280280ea2da15b05\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\AndroidStudioProjects\Pokemon\app\src\main\AndroidManifest.xml
