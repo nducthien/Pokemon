@@ -20,6 +20,8 @@
         - android:scaleType="fitXY"
     - Add RecyclerView
 5) Custom Adapter for this RecyclerView
+6) Can create function to change color of Chip by Type of Pokemon (or use my own function) - you can copy my own function from Github
+    - https://www.youtube.com/watch?v=A2-X72_76ro
 
 -------------------------------------------
 6) Create Interface IItemclickListener
