@@ -1,20 +1,22 @@
 package pokemon.com.wall.pokemonfun.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
 import java.util.List;
 
 import pokemon.com.wall.pokemonfun.Interface.ItemClickListener;
+import pokemon.com.wall.pokemonfun.common.Common;
 import pokemon.com.wall.pokemonfun.model.Pokemon;
 import pokemon.com.wall.pokemonfun.R;
 
@@ -47,7 +49,9 @@ public class PokemonListAdapter extends RecyclerView.Adapter<PokemonListAdapter.
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Toast.makeText(context, "Click at Pokemon: " + pokemonList.get(position).getName(), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "Click at Pokemon: " + pokemonList.get(position).getName(), Toast.LENGTH_SHORT).show();
+                LocalBroadcastManager.getInstance(context)
+                        .sendBroadcast(new Intent(Common.KEY_ENABLE_HOME).putExtra("position", position));
             }
         });
     }

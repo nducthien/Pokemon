@@ -7,5 +7,6 @@ import pokemon.com.wall.pokemonfun.model.Pokemon;
 
 public class Common {
 
+    public static final String KEY_ENABLE_HOME = "enable_home";
     public static List<Pokemon> commonpokemonList = new ArrayList<>();
 }
