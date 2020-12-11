@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">Pokemon Fun</string>
+    <string name="app_name">Pokemon</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type">Type</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="weakness">Weakness</string>
+    <string name="next_evolution">Next Evolution</string>
+    <string name="prev_evolution">Prev Evolution</string>
 </resources>

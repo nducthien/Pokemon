@@ -71,8 +71,8 @@ public class PokemonList extends Fragment {
                 .subscribe(new Consumer<Pokedex>() {
                     @Override
                     public void accept(Pokedex pokedex) throws Exception {
-                        Common.commonpokemonList = pokedex.getPokemons();
-                        PokemonListAdapter adapter = new PokemonListAdapter(getActivity(), Common.commonpokemonList);
+                        Common.commonPokemonList = pokedex.getPokemons();
+                        PokemonListAdapter adapter = new PokemonListAdapter(getActivity(), Common.commonPokemonList);
 
                         rcv_pokemon_list.setAdapter(adapter);
 

@@ -49,7 +49,11 @@ public class PokemonListAdapter extends RecyclerView.Adapter<PokemonListAdapter.
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position) {
-                //Toast.makeText(context, "Click at Pokemon: " + pokemonList.get(position).getName(), Toast.LENGTH_SHORT).show();
+                /**
+                 * Toast.makeText(context, "Click at Pokemon: " + pokemonList.get(position).getName(), Toast.LENGTH_SHORT).show();
+                 * write LocalBroadCast to request MainActivity replace fragment when we click
+                 */
+
                 LocalBroadcastManager.getInstance(context)
                         .sendBroadcast(new Intent(Common.KEY_ENABLE_HOME).putExtra("position", position));
             }
