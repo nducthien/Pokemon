@@ -1,5 +1,7 @@
-pokemon/com/wall/pokemonfun/model/PrevEvolution.java
- pokemon.com.wall.pokemonfun.model.PrevEvolution
+pokemon/com/wall/pokemonfun/adapter/PokemonNextEvolutionAdapter.java
+ pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter
+ pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter$ViewHolder
+ pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter$ViewHolder$1
 pokemon/com/wall/pokemonfun/adapter/PokemonTypeAdapter.java
  pokemon.com.wall.pokemonfun.adapter.PokemonTypeAdapter
  pokemon.com.wall.pokemonfun.adapter.PokemonTypeAdapter$1
@@ -20,6 +22,8 @@ pokemon/com/wall/pokemonfun/retrofit/RetrofitClient.java
 pokemon/com/wall/pokemonfun/fragment/PokemonList.java
  pokemon.com.wall.pokemonfun.fragment.PokemonList
  pokemon.com.wall.pokemonfun.fragment.PokemonList$1
+ pokemon.com.wall.pokemonfun.fragment.PokemonList$2
+ pokemon.com.wall.pokemonfun.fragment.PokemonList$3
 pokemon/com/wall/pokemonfun/common/Common.java
  pokemon.com.wall.pokemonfun.common.Common
 pokemon/com/wall/pokemonfun/Interface/ItemClickListener.java
@@ -30,17 +34,15 @@ pokemon/com/wall/pokemonfun/activity/MainActivity.java
  pokemon.com.wall.pokemonfun.activity.MainActivity
  pokemon.com.wall.pokemonfun.activity.MainActivity$1
  pokemon.com.wall.pokemonfun.activity.MainActivity$2
-pokemon/com/wall/pokemonfun/retrofit/IPokemonDex.java
- pokemon.com.wall.pokemonfun.retrofit.IPokemonDex
-pokemon/com/wall/pokemonfun/BuildConfig.java
- pokemon.com.wall.pokemonfun.BuildConfig
 pokemon/com/wall/pokemonfun/adapter/PokemonPrevEvolutionAdapter.java
  pokemon.com.wall.pokemonfun.adapter.PokemonPrevEvolutionAdapter
  pokemon.com.wall.pokemonfun.adapter.PokemonPrevEvolutionAdapter$ViewHolder
  pokemon.com.wall.pokemonfun.adapter.PokemonPrevEvolutionAdapter$ViewHolder$1
 pokemon/com/wall/pokemonfun/fragment/PokemonDetail.java
  pokemon.com.wall.pokemonfun.fragment.PokemonDetail
-pokemon/com/wall/pokemonfun/adapter/PokemonNextEvolutionAdapter.java
- pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter
- pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter$ViewHolder
- pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter$ViewHolder$1
+pokemon/com/wall/pokemonfun/model/PrevEvolution.java
+ pokemon.com.wall.pokemonfun.model.PrevEvolution
+pokemon/com/wall/pokemonfun/BuildConfig.java
+ pokemon.com.wall.pokemonfun.BuildConfig
+pokemon/com/wall/pokemonfun/retrofit/IPokemonDex.java
+ pokemon.com.wall.pokemonfun.retrofit.IPokemonDex

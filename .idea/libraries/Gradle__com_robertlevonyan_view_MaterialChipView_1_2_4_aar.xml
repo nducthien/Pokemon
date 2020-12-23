@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.robertlevonyan.view:MaterialChipView:1.2.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19b64597b03c51a6c90cd92d895e3ffd/MaterialChipView-1.2.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19b64597b03c51a6c90cd92d895e3ffd/MaterialChipView-1.2.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19b64597b03c51a6c90cd92d895e3ffd/MaterialChipView-1.2.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/078fd89290e6dea108392451e2ba2ccc/MaterialChipView-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/078fd89290e6dea108392451e2ba2ccc/MaterialChipView-1.2.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/078fd89290e6dea108392451e2ba2ccc/MaterialChipView-1.2.4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.view/MaterialChipView/1.2.4/dad411705059dfca632759a4cd43f430c239766d/MaterialChipView-1.2.4-javadoc.jar!/" />

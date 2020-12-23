@@ -48,15 +48,14 @@ public class PokemonDetail extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_pokemon_detail, container, false);
 
-        Pokemon pokemon;
+        assert getArguments() != null;
+        Pokemon pokemon = Common.findPokemonByNum(getArguments().getString("num"));
 
         // get position from Argument
-        if (getArguments().get("num") == null) {
-            pokemon = Common.commonPokemonList.get(getArguments().getInt("position"));
-
-        } else {
-            pokemon = Common.findPokemonByNum(getArguments().getString("num"));
-        }
+//        if (getArguments().get("num") == null)
+//            pokemon = Common.commonPokemonList.get(getArguments().getInt("position"));
+//        else
+//            pokemon = Common.findPokemonByNum(getArguments().getString("num"));
 
         initComponent(view);
         setDetailPokemon(pokemon);
