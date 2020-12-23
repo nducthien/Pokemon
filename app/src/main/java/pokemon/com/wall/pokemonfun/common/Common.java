@@ -10,6 +10,7 @@ import pokemon.com.wall.pokemonfun.model.Pokemon;
 public class Common {
 
     public static final String KEY_ENABLE_HOME = "enable_home";
+    public static final String KEY_NUM_EVOLUTION = "num_evolution";
     public static List<Pokemon> commonPokemonList = new ArrayList<>();
 
     public static int getColorByType(String type) {

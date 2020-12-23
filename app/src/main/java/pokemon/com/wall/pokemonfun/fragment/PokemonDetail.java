@@ -55,7 +55,7 @@ public class PokemonDetail extends Fragment {
             pokemon = Common.commonPokemonList.get(getArguments().getInt("position"));
 
         } else {
-            pokemon = null;
+            pokemon = Common.findPokemonByNum(getArguments().getString("num"));
         }
 
         initComponent(view);
