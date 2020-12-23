@@ -1,12 +1,13 @@
 package pokemon.com.wall.pokemonfun.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.robertlevonyan.views.chip.Chip;
 import com.robertlevonyan.views.chip.OnChipClickListener;
@@ -14,14 +15,13 @@ import com.robertlevonyan.views.chip.OnChipClickListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import pokemon.com.wall.pokemonfun.Interface.ItemClickListener;
 import pokemon.com.wall.pokemonfun.R;
 import pokemon.com.wall.pokemonfun.common.Common;
 import pokemon.com.wall.pokemonfun.model.PrevEvolution;
 
 public class PokemonPrevEvolutionAdapter extends RecyclerView.Adapter<PokemonPrevEvolutionAdapter.ViewHolder> {
-    private Context context;
-    private List<PrevEvolution> prevEvolutions;
+    Context context;
+    List<PrevEvolution> prevEvolutions;
 
     public PokemonPrevEvolutionAdapter(Context context, List<PrevEvolution> prevEvolutions) {
         this.context = context;
@@ -48,12 +48,12 @@ public class PokemonPrevEvolutionAdapter extends RecyclerView.Adapter<PokemonPre
                                 prevEvolutions.get(position).getNum()).getType().get(0))
         );
 
-        holder.setItemClickListener(new ItemClickListener() {
-            @Override
-            public void onClick(View view, int position) {
-                Toast.makeText(context, "CLick to prev evolution Pokemon", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        holder.setItemClickListener(new ItemClickListener() {
+//            @Override
+//            public void onClick(View view, int position) {
+//                Toast.makeText(context, "CLick to prev evolution Pokemon", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
     }
 
@@ -62,13 +62,13 @@ public class PokemonPrevEvolutionAdapter extends RecyclerView.Adapter<PokemonPre
         return prevEvolutions.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
         private final Chip chip;
-        private ItemClickListener itemClickListener;
-
-        public void setItemClickListener(ItemClickListener itemClickListener) {
-            this.itemClickListener = itemClickListener;
-        }
+//        private ItemClickListener itemClickListener;
+//
+//        public void setItemClickListener(ItemClickListener itemClickListener) {
+//            this.itemClickListener = itemClickListener;
+//        }
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -77,7 +77,11 @@ public class PokemonPrevEvolutionAdapter extends RecyclerView.Adapter<PokemonPre
             chip.setOnChipClickListener(new OnChipClickListener() {
                 @Override
                 public void onChipClick(View v) {
-                    itemClickListener.onClick(v, getAdapterPosition());
+                    //itemClickListener.onClick(v, getAdapterPosition());
+                    LocalBroadcastManager.getInstance(context)
+                            .sendBroadcast(new Intent(Common.KEY_NUM_EVOLUTION)
+                                    .putExtra("num",
+                                            prevEvolutions.get(getAdapterPosition()).getNum()));
                 }
             });
         }
