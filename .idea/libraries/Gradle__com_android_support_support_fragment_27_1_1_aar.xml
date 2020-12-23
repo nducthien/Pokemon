@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-fragment:27.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8403b8a6a0886985494885c15e8aac5/support-fragment-27.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8403b8a6a0886985494885c15e8aac5/support-fragment-27.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8403b8a6a0886985494885c15e8aac5/support-fragment-27.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c19fdd807c306dfd21cf072d31f49fc/support-fragment-27.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c603b12a4d4027dfb285c4c146559250/support-fragment-27.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c603b12a4d4027dfb285c4c146559250/support-fragment-27.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c603b12a4d4027dfb285c4c146559250/support-fragment-27.1.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

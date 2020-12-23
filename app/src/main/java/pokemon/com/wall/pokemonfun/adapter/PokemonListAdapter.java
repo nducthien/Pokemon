@@ -55,7 +55,8 @@ public class PokemonListAdapter extends RecyclerView.Adapter<PokemonListAdapter.
                  */
 
                 LocalBroadcastManager.getInstance(context)
-                        .sendBroadcast(new Intent(Common.KEY_ENABLE_HOME).putExtra("position", position));
+                        .sendBroadcast(new Intent(Common.KEY_ENABLE_HOME)
+                                .putExtra("num", pokemonList.get(position).getNum()));
             }
         });
     }
