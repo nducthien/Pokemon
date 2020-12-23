@@ -14,10 +14,12 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import pokemon.com.wall.pokemonfun.R;
-import pokemon.com.wall.pokemonfun.adapter.PokemonEvolutionAdapter;
+import pokemon.com.wall.pokemonfun.adapter.PokemonNextEvolutionAdapter;
+import pokemon.com.wall.pokemonfun.adapter.PokemonPrevEvolutionAdapter;
 import pokemon.com.wall.pokemonfun.adapter.PokemonTypeAdapter;
 import pokemon.com.wall.pokemonfun.common.Common;
 import pokemon.com.wall.pokemonfun.model.Pokemon;
+import pokemon.com.wall.pokemonfun.model.PrevEvolution;
 
 
 public class PokemonDetail extends Fragment {
@@ -104,11 +106,11 @@ public class PokemonDetail extends Fragment {
         recyclerWeakness.setAdapter(weaknessAdapter);
 
         // Set Evolution
-        PokemonEvolutionAdapter preEvolutionAdapter = new PokemonEvolutionAdapter(getActivity(), pokemon.getNext_evolution());
-        recyclerPrev.setAdapter(preEvolutionAdapter);
+        PokemonPrevEvolutionAdapter prevEvolutionAdapter = new PokemonPrevEvolutionAdapter(getActivity(), pokemon.getPrev_evolution());
+        recyclerPrev.setAdapter(prevEvolutionAdapter);
 
-        // Set Evolution
-        PokemonEvolutionAdapter nextEvolutionAdapter = new PokemonEvolutionAdapter(getActivity(), pokemon.getNext_evolution());
+        // Set Next Evolution
+        PokemonNextEvolutionAdapter nextEvolutionAdapter = new PokemonNextEvolutionAdapter(getActivity(), pokemon.getNext_evolution());
         recyclerNext.setAdapter(nextEvolutionAdapter);
 
     }

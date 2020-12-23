@@ -21,7 +21,7 @@ import pokemon.com.wall.pokemonfun.model.Pokemon;
 
 public class MainActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
+    private Toolbar toolbar;
 
     BroadcastReceiver showDetail = new BroadcastReceiver() {
         @Override

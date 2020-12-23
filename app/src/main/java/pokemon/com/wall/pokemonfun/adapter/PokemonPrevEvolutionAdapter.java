@@ -17,41 +17,41 @@ import java.util.List;
 import pokemon.com.wall.pokemonfun.Interface.ItemClickListener;
 import pokemon.com.wall.pokemonfun.R;
 import pokemon.com.wall.pokemonfun.common.Common;
-import pokemon.com.wall.pokemonfun.model.NextEvolution;
+import pokemon.com.wall.pokemonfun.model.PrevEvolution;
 
-public class PokemonEvolutionAdapter extends RecyclerView.Adapter<PokemonEvolutionAdapter.ViewHolder> {
+public class PokemonPrevEvolutionAdapter extends RecyclerView.Adapter<PokemonPrevEvolutionAdapter.ViewHolder> {
     private Context context;
-    private List<NextEvolution> nextEvolutionList;
+    private List<PrevEvolution> prevEvolutions;
 
-    public PokemonEvolutionAdapter(Context context, List<NextEvolution> nextEvolutionList) {
+    public PokemonPrevEvolutionAdapter(Context context, List<PrevEvolution> prevEvolutions) {
         this.context = context;
-        if (nextEvolutionList != null)
-            this.nextEvolutionList = nextEvolutionList;
+        if (prevEvolutions != null)
+            this.prevEvolutions = prevEvolutions;
         else
-            this.nextEvolutionList = new ArrayList<>(); // fix crash if pokemon doesn't have prev or next evolution
+            this.prevEvolutions = new ArrayList<>(); // fix crash if pokemon doesn't have prev or next evolution
     }
 
     @NonNull
     @Override
-    public PokemonEvolutionAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public PokemonPrevEvolutionAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.chip_item, parent, false);
 
-        return new PokemonEvolutionAdapter.ViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull PokemonEvolutionAdapter.ViewHolder holder, int position) {
-        holder.chip.setChipText(nextEvolutionList.get(position).getName());
+    public void onBindViewHolder(@NonNull PokemonPrevEvolutionAdapter.ViewHolder holder, int position) {
+        holder.chip.setChipText(prevEvolutions.get(position).getName());
         holder.chip.changeBackgroundColor(
                 Common.getColorByType(
                         Common.findPokemonByNum(
-                                nextEvolutionList.get(position).getNum()).getType().get(0))
+                                prevEvolutions.get(position).getNum()).getType().get(0))
         );
 
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Toast.makeText(context, "CLick to evolution Pokemon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "CLick to prev evolution Pokemon", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -59,11 +59,11 @@ public class PokemonEvolutionAdapter extends RecyclerView.Adapter<PokemonEvoluti
 
     @Override
     public int getItemCount() {
-        return nextEvolutionList.size();
+        return prevEvolutions.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
-        private Chip chip;
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        private final Chip chip;
         private ItemClickListener itemClickListener;
 
         public void setItemClickListener(ItemClickListener itemClickListener) {
@@ -83,3 +83,4 @@ public class PokemonEvolutionAdapter extends RecyclerView.Adapter<PokemonEvoluti
         }
     }
 }
+
